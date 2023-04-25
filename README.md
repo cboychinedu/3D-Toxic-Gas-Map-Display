@@ -1,5 +1,8 @@
 # 3D Toxic Gas Map Display 
 
+<img src="./src/Images/home.jpeg" />
+<br>
+
 <p>
 This program is designed to display a 3D map of a dispersed toxic gas using ReactJS, Python, and NodeJS. The program takes in data collected from air quality sensors and uses advanced visualization techniques to provide an accurate and detailed view of the gas dispersion pattern.
 </p>
