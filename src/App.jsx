@@ -1,8 +1,9 @@
 // Importing the necessary modules 
 import React, { Component, Fragment } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Component/Home';
 
-
+// Creating the App component 
 class App extends Component {
   // Setting the state 
   state = {} 
@@ -12,10 +13,16 @@ class App extends Component {
     // Returning the component 
     return (
       <Fragment> 
-          <h4> Home Page </h4>
+          <BrowserRouter> 
+            {/* Setting the Routes configurations */}
+            <Routes>
+                <Route exact path="/" element={<Home /> } /> 
+            </Routes>
+          </BrowserRouter>
       </Fragment>
     )
   }
 }
 
+// Exporting the App component 
 export default App;
