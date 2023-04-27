@@ -1,0 +1,3 @@
+URI: "https://www.weather.gov/documentation/services-web-api" 
+POINTS: "https://api.weather.gov/points/{latitude},{longitude}" 
+HOURLY_FORECAST: "https://api.weather.gov/gridpoints/TOP/32,81/forecast/hourly" 

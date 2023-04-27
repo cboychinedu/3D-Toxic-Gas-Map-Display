@@ -1,0 +1,85 @@
+04/27/2023 08:11:32 PM [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:11:32 PM [33mPress CTRL+C to quit[0m _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:11:32 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:11:32 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:11:33 PM  * Debugger PIN: 119-101-793 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:12:12 PM [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:12:12 PM [33mPress CTRL+C to quit[0m _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:12:12 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:12:13 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:12:13 PM  * Debugger PIN: 105-343-782 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:12:21 PM  * Detected change in '/home/mbonu/Documents/MainProjects/3d-toxic-gas-dispersion/backend-server/app.py', reloading _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:12:21 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:12:28 PM [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:12:28 PM [33mPress CTRL+C to quit[0m _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:12:55 PM 127.0.0.1 - - [27/Apr/2023 20:12:55] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:12:56 PM 127.0.0.1 - - [27/Apr/2023 20:12:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:16:54 PM [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:16:54 PM [33mPress CTRL+C to quit[0m _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:16:54 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:16:54 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:16:54 PM  * Debugger PIN: 626-222-467 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:17:10 PM  * Detected change in '/home/mbonu/Documents/MainProjects/3d-toxic-gas-dispersion/backend-server/app.py', reloading _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:17:10 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:17:10 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:17:10 PM  * Debugger PIN: 567-370-688 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:17:17 PM [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:17:17 PM [33mPress CTRL+C to quit[0m _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:17:17 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:17:17 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:17:17 PM  * Debugger PIN: 709-422-372 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:18:20 PM [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:18:20 PM [33mPress CTRL+C to quit[0m _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:18:20 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:18:20 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:18:20 PM  * Debugger PIN: 195-829-337 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:18:43 PM [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:18:43 PM [33mPress CTRL+C to quit[0m _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:18:43 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:18:44 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:18:44 PM  * Debugger PIN: 708-727-118 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:18:57 PM  * Detected change in '/home/mbonu/Documents/MainProjects/3d-toxic-gas-dispersion/backend-server/app.py', reloading _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:18:57 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:18:57 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:18:57 PM  * Debugger PIN: 280-183-547 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:19:02 PM [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:19:02 PM [33mPress CTRL+C to quit[0m _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:19:02 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:19:02 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:19:02 PM  * Debugger PIN: 867-466-761 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:19:33 PM  * Detected change in '/home/mbonu/Documents/MainProjects/3d-toxic-gas-dispersion/backend-server/app.py', reloading _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:19:33 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:19:34 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:19:34 PM  * Debugger PIN: 109-002-870 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:19:38 PM [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:19:38 PM [33mPress CTRL+C to quit[0m _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:19:38 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:19:39 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:19:39 PM  * Debugger PIN: 521-647-997 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:20:33 PM  * Detected change in '/home/mbonu/Documents/MainProjects/3d-toxic-gas-dispersion/backend-server/app.py', reloading _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:20:33 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:20:34 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:20:34 PM  * Debugger PIN: 334-684-525 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:37:36 PM  * Detected change in '/home/mbonu/Documents/MainProjects/3d-toxic-gas-dispersion/backend-server/static/home/routes.py', reloading _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:37:36 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:37:37 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:37:37 PM  * Debugger PIN: 277-668-865 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:38:47 PM  * Detected change in '/home/mbonu/Documents/MainProjects/3d-toxic-gas-dispersion/backend-server/static/home/routes.py', reloading _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:38:47 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:38:47 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:38:47 PM  * Debugger PIN: 248-238-992 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:42:24 PM  * Detected change in '/home/mbonu/Documents/MainProjects/3d-toxic-gas-dispersion/backend-server/static/home/routes.py', reloading _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:42:24 PM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:42:24 PM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:42:24 PM  * Debugger PIN: 957-574-481 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:42:33 PM 127.0.0.1 - - [27/Apr/2023 20:42:33] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/27/2023 08:42:41 PM 127.0.0.1 - - [27/Apr/2023 20:42:41] "GET /air-properties HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py

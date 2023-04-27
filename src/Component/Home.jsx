@@ -30,9 +30,20 @@ class Home extends Component {
             <Fragment> 
                 {/* Adding the map-leaflet */}
                 <MapContainer center={[this.state.lat, this.state.lng]} zoom={13} scrollwheelZoom={false}>
-                <TileLayer attribution='Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                <TileLayer 
+                    attribution='Map tiles by <a href="http://stamen.com">Stamen Design</a>, 
+                    <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; 
+                    Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
 
+                {/* Adding a pop up */}
+                <CircleMarker center={[this.state.lat, this.state.lng]} radius={100} color="green">
+                    <Popup> 
+                        A preety popup, <br /> Easily customizable. 
+                    </Popup>
+                </CircleMarker>
+
+                {/* Adding the heat map  */}
                 <HeatmapLayer
                     fitBoundsOnLoad
                     fitBoundsOnUpdate
