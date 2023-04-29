@@ -13,6 +13,18 @@ const customIcon = new Icon({
     iconSize: [38, 38]
   })
 
+// Circle ma
+const circleMarkerOptions = {
+    radius: 10, 
+    stroke: "white", 
+    pathOptions: {
+        color: '#f4f7f0', 
+        fillColor: 'red', 
+        fillOpacity: 0.12, 
+        weight: 0.1, 
+    }, 
+}
+
 // Creating the UI component 
 class Home extends Component {
     // Setting the state 
@@ -55,6 +67,29 @@ class Home extends Component {
                     latitudeExtractor={m => m.geometry.coordinates[1]}
                     intensityExtractor={m => parseFloat(m.geometry.coordinates[1])}
                 />
+
+                {/* Adding popup for each heat map */}
+                {
+                    geojson.features.map((point, index) => {
+                        // Displaying the name 
+                        return (
+                            <CircleMarker 
+                                center={[point.geometry.coordinates[1], point.geometry.coordinates[0]]} 
+                                {...circleMarkerOptions}
+                            >
+                                <Popup> 
+                                    <p> The downwind concentration is: 0.987ppm </p>
+                                </Popup>
+                            </CircleMarker>
+                            // <Popup key={index} center={[point.geometry.coordinates[1], point.geometry.coordinates[0]]}> 
+                            //         <p> The downwind concentration is: 0.987ppm </p>
+                            // </Popup>
+
+
+                        )
+
+                    })
+                }
 
                 </MapContainer>
             </Fragment>
