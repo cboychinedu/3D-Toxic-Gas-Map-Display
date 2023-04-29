@@ -2,6 +2,7 @@
 
 <img src="./src/Images/home.jpeg" />
 <br>
+<a class="center" style="text-align: center;"> <img src="./src/Images/toxic-gas.png" /> </a>
 
 ## Introduction
 
