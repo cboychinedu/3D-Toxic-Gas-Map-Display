@@ -15,13 +15,13 @@ const customIcon = new Icon({
 
 // Circle ma
 const circleMarkerOptions = {
-    radius: 10, 
+    radius: 16, 
     stroke: "white", 
     pathOptions: {
         color: '#f4f7f0', 
         fillColor: 'red', 
-        fillOpacity: 0.12, 
-        weight: 0.1, 
+        fillOpacity: 0.02, 
+        weight: 0.09, 
     }, 
 }
 
