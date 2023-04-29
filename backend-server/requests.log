@@ -191,3 +191,33 @@
 04/29/2023 01:36:00 AM Starting new HTTPS connection (1): api.openweathermap.org:443 connectionpool.py connectionpool /home/mbonu/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py
 04/29/2023 01:36:01 AM https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=6.5244&lon=7.3792&appid=65345ddc6e7b215224699b4625a615e1 HTTP/1.1" 200 506 connectionpool.py connectionpool /home/mbonu/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py
 04/29/2023 01:36:01 AM 127.0.0.1 - - [29/Apr/2023 01:36:01] "POST /air-properties HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:53:57 AM [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:53:57 AM [33mPress CTRL+C to quit[0m _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:53:57 AM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:53:57 AM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:53:57 AM  * Debugger PIN: 140-396-307 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:54:00 AM Starting new HTTPS connection (1): api.openweathermap.org:443 connectionpool.py connectionpool /home/mbonu/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py
+04/29/2023 01:54:02 AM https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=6.5244&lon=7.3792&mode=xml&appid=65345ddc6e7b215224699b4625a615e1 HTTP/1.1" 200 897 connectionpool.py connectionpool /home/mbonu/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py
+04/29/2023 01:54:02 AM 127.0.0.1 - - [29/Apr/2023 01:54:02] "[35m[1mPOST /air-properties HTTP/1.1[0m" 500 - _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:55:16 AM  * Detected change in '/home/mbonu/Documents/MainProjects/3d-toxic-gas-dispersion/backend-server/static/home/routes.py', reloading _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:55:16 AM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:55:17 AM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:55:17 AM  * Debugger PIN: 626-148-823 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:55:20 AM Starting new HTTPS connection (1): api.openweathermap.org:443 connectionpool.py connectionpool /home/mbonu/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py
+04/29/2023 01:55:21 AM https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=6.5244&lon=7.3792&mode=xml HTTP/1.1" 401 108 connectionpool.py connectionpool /home/mbonu/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py
+04/29/2023 01:55:21 AM 127.0.0.1 - - [29/Apr/2023 01:55:21] "POST /air-properties HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:56:17 AM  * Detected change in '/home/mbonu/Documents/MainProjects/3d-toxic-gas-dispersion/backend-server/static/home/routes.py', reloading _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:56:17 AM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:56:18 AM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:56:18 AM  * Debugger PIN: 987-420-883 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:56:20 AM Starting new HTTPS connection (1): api.openweathermap.org:443 connectionpool.py connectionpool /home/mbonu/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py
+04/29/2023 01:56:22 AM https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=6.5244&lon=7.3792&appid=65345ddc6e7b215224699b4625a615e1&mode=xml HTTP/1.1" 200 897 connectionpool.py connectionpool /home/mbonu/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py
+04/29/2023 01:56:22 AM 127.0.0.1 - - [29/Apr/2023 01:56:22] "[35m[1mPOST /air-properties HTTP/1.1[0m" 500 - _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:57:12 AM  * Detected change in '/home/mbonu/Documents/MainProjects/3d-toxic-gas-dispersion/backend-server/static/home/routes.py', reloading _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:57:12 AM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:57:13 AM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:57:13 AM  * Debugger PIN: 137-467-956 _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
+04/29/2023 01:57:15 AM Starting new HTTPS connection (1): api.openweathermap.org:443 connectionpool.py connectionpool /home/mbonu/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py
+04/29/2023 01:57:16 AM https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=6.5244&lon=7.3792&appid=65345ddc6e7b215224699b4625a615e1 HTTP/1.1" 200 506 connectionpool.py connectionpool /home/mbonu/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py
+04/29/2023 01:57:16 AM 127.0.0.1 - - [29/Apr/2023 01:57:16] "POST /air-properties HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/lib/python3.8/site-packages/werkzeug/_internal.py
