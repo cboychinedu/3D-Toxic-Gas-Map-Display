@@ -8,6 +8,7 @@ from flask import Flask, url_for
 from flask_cors import CORS 
 from datetime import datetime 
 from static.home.routes import home 
+from dotenv import dotenv_values, load_dotenv 
 
 # Creating the flask application 
 app = Flask(__name__) 
@@ -15,6 +16,9 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 # Setting the cors configuration 
 CORS(app) 
+
+# Loading the environment variables 
+load_dotenv() 
 
 # Register the views  
 app.register_blueprint(home, url_prefix='/')
