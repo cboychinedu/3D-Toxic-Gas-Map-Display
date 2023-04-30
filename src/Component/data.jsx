@@ -11,7 +11,7 @@ let geojson = {
         },
         geometry: {
           type: "Point",
-          coordinates: [39.050619679238508, 55.664990339319459]
+          coordinates: [39.050619679238508, 55.664990339319459] 
         }
       },
       {

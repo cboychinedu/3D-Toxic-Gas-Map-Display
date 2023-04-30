@@ -2,28 +2,38 @@
 import '../App.css'; 
 import React, { Component, Fragment } from 'react'
 import "leaflet/dist/leaflet.css"; 
-import { Icon } from 'leaflet';
-import { geojson } from './data'; 
+import { Icon} from 'leaflet';
+import gasMask from '../Images/gas-mask.png'; 
+import { getAreaAndRandomCoords, getPolygonCoords } from './Polygon';
 import { HeatmapLayer } from 'react-leaflet-heatmap-layer-v3'; 
-import { MapContainer, TileLayer, Marker, Popup, Circle, CircleMarker } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, Circle, CircleMarker, Polygon } from 'react-leaflet'
 
 // Creating an icon 
 const customIcon = new Icon({
-    iconUrl: "https://cdn-icons-png.flaticon.com/512/484/484167.png", 
-    iconSize: [38, 38]
-  })
+    iconUrl: gasMask, 
+    iconSize: [28, 28]
+})
 
-// Circle ma
+// Polygon props 
+const polygonOptions = {
+    color: '#ff5c33', 
+    fillColor: '#ff5c33', 
+    fillOpacity: 0.58, 
+    weight: 1
+}
+
+// Circle marker 
 const circleMarkerOptions = {
     radius: 16, 
-    stroke: "white", 
+    stroke: "", 
     pathOptions: {
         color: '#f4f7f0', 
         fillColor: 'red', 
         fillOpacity: 0.02, 
-        weight: 0.09, 
+        weight: 0.5, 
     }, 
 }
+
 
 // Creating the UI component 
 class Home extends Component {
@@ -31,9 +41,9 @@ class Home extends Component {
     state = {
         lat: 51.505, 
         lng: -0.09, 
+        windDirection: 45, 
         intensity: 2.8, 
     } 
-
 
     // Rendering the component 
     render() {
@@ -41,55 +51,50 @@ class Home extends Component {
         return (
             <Fragment> 
                 {/* Adding the map-leaflet */}
-                <MapContainer center={[this.state.lat, this.state.lng]} zoom={13} scrollwheelZoom={false}>
+                <MapContainer center={[this.state.lat, this.state.lng]} zoom={5} scrollwheelZoom={false}>
                 <TileLayer 
                     attribution='Map tiles by <a href="http://stamen.com">Stamen Design</a>, 
                     <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; 
                     Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
 
-                {/* Adding a pop up */}
-                <CircleMarker center={[this.state.lat, this.state.lng]} radius={100} color="green">
+                {/* Adding a main circle */}
+                <Circle center={[this.state.lat, this.state.lng]} radius={500} color="green" fillColor='#330a00' fillOpacity={0.9}>  
                     <Popup> 
-                        A preety popup, <br /> Easily customizable. 
+                        <p style={{"fontWeight": "bold"}}> Source of Toxic Release </p>
                     </Popup>
-                </CircleMarker>
+                </Circle>
+
+                {/* Adding popup for each heat map */}
+                <Polygon positions={getPolygonCoords([this.state.lat, this.state.lng], this.state.windDirection)} color="blue"  pathOptions={polygonOptions} >
+                    {
+                        getAreaAndRandomCoords([this.state.lat, this.state.lng], this.state.windDirection).map((point, index) => {
+                            // Displaying the name 
+                            return (
+                                <Marker position={[point[0], point[1]]} icon={customIcon}> 
+                                    <Popup> 
+                                        <p> The downwind concentration is: {point[0]}ppm </p>
+                                    </Popup>
+                                </Marker>
+                            )
+
+                        })
+                    }
+                </Polygon> 
 
                 {/* Adding the heat map  */}
                 <HeatmapLayer
                     fitBoundsOnLoad
+                    radius={25}
                     fitBoundsOnUpdate
-                    opacity={0.9}
+                    opacity={0.4}
                     max={100}
-                    minOpacity={0.4}
-                    points={geojson.features}
-                    longitudeExtractor={m => m.geometry.coordinates[0]}
-                    latitudeExtractor={m => m.geometry.coordinates[1]}
-                    intensityExtractor={m => parseFloat(m.geometry.coordinates[1])}
+                    minOpacity={0.5}
+                    points={getAreaAndRandomCoords([this.state.lat, this.state.lng], this.state.windDirection)}
+                    longitudeExtractor={(point) => point[1]}
+                    latitudeExtractor={(point) => point[0]}
+                    intensityExtractor={(m) => parseFloat(m[1])}
                 />
-
-                {/* Adding popup for each heat map */}
-                {
-                    geojson.features.map((point, index) => {
-                        // Displaying the name 
-                        return (
-                            <CircleMarker 
-                                center={[point.geometry.coordinates[1], point.geometry.coordinates[0]]} 
-                                {...circleMarkerOptions}
-                            >
-                                <Popup> 
-                                    <p> The downwind concentration is: 0.987ppm </p>
-                                </Popup>
-                            </CircleMarker>
-                            // <Popup key={index} center={[point.geometry.coordinates[1], point.geometry.coordinates[0]]}> 
-                            //         <p> The downwind concentration is: 0.987ppm </p>
-                            // </Popup>
-
-
-                        )
-
-                    })
-                }
 
                 </MapContainer>
             </Fragment>
