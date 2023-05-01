@@ -3,23 +3,24 @@ import '../App.css';
 import React, { Component, Fragment } from 'react'
 import "leaflet/dist/leaflet.css"; 
 import { Icon} from 'leaflet';
-import gasMask from '../Images/gas-mask.png'; 
+import bioHazardGreen from '../Images/bio-hazard-green.png'; 
+import bioHazard from '../Images/bio-hazard.png'; 
 import { getAreaAndRandomCoords, getPolygonCoords } from './Polygon';
 import { HeatmapLayer } from 'react-leaflet-heatmap-layer-v3'; 
 import { MapContainer, TileLayer, Marker, Popup, Circle, CircleMarker, Polygon } from 'react-leaflet'
 
 // Creating an icon 
 const customIcon = new Icon({
-    iconUrl: gasMask, 
-    iconSize: [28, 28]
+    iconUrl: bioHazardGreen, 
+    iconSize: [40, 40]
 })
 
 // Polygon props 
 const polygonOptions = {
-    color: '#ff5c33', 
+    color: 'red', 
     fillColor: '#ff5c33', 
     fillOpacity: 0.58, 
-    weight: 1
+    weight: 1.6
 }
 
 // Circle marker 
@@ -41,7 +42,7 @@ class Home extends Component {
     state = {
         lat: 51.505, 
         lng: -0.09, 
-        windDirection: 45, 
+        windDirection: 90, 
         intensity: 2.8, 
     } 
 
@@ -56,7 +57,7 @@ class Home extends Component {
                     attribution='Map tiles by <a href="http://stamen.com">Stamen Design</a>, 
                     <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; 
                     Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                    url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
+                    url='https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png' />
 
                 {/* Adding a main circle */}
                 <Circle center={[this.state.lat, this.state.lng]} radius={500} color="green" fillColor='#330a00' fillOpacity={0.9}>  

@@ -47,27 +47,67 @@ const getPolygonCoords = (center, windDirection) => {
     const vertexDistance = 10; 
 
     // Using a for loop 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 7; i++) {
         if (i === 0) {
             const angle = i * angleIncrement + windDirection; 
-            const vertex = destination(center, vertexDistance, angle).geometry.coordinates; 
-            polygonCoords.push(center)
-            // polygonCoords.push(vertex)
+            const vertex = destination(center, 0.05, angle).geometry.coordinates; 
+            polygonCoords.push(vertex)
             continue; 
             
         }
 
-        if (i === 6 ) {
+        else if (i === 1) {
             const angle = i * angleIncrement + windDirection; 
-            const vertex = destination(center, vertexDistance, angle).geometry.coordinates; 
-            polygonCoords.push(center)
+            const vertex = destination(center, 0.05, angle).geometry.coordinates; 
+            polygonCoords.push(vertex)
             continue; 
             
         }
-        // 
-        const angle = i * angleIncrement + windDirection; 
-        const vertex = destination(center, vertexDistance, angle).geometry.coordinates; 
-        polygonCoords.push(vertex); 
+
+        else if (i === 2) {
+            const angle = i * angleIncrement + windDirection; 
+            const vertex = destination(center, vertexDistance, angle).geometry.coordinates; 
+            polygonCoords.push(vertex)
+            continue; 
+            
+        }
+
+        else if (i === 3) {
+            const angle = i * angleIncrement + windDirection; 
+            const vertex = destination(center, vertexDistance+10, angle).geometry.coordinates; 
+            polygonCoords.push(vertex)
+            continue; 
+            
+        }
+
+        else if (i === 4 ) {
+            const angle = i * angleIncrement + windDirection; 
+            const vertex = destination(center, 6, angle).geometry.coordinates; 
+            polygonCoords.push(vertex)
+            continue; 
+            
+        }
+
+        else if (i === 5 ) {
+            const angle = i * angleIncrement + windDirection; 
+            const vertex = destination(center, 0.05, angle).geometry.coordinates; 
+            polygonCoords.push(vertex)
+            continue; 
+            
+        }
+
+        else if (i === 6) {
+            const angle = i * angleIncrement + windDirection; 
+            const vertex = destination(center, 0.05, angle).geometry.coordinates; 
+            polygonCoords.push(vertex)
+            continue; 
+            
+        }
+
+        // // 
+        // const angle = i * angleIncrement + windDirection; 
+        // const vertex = destination(center, vertexDistance, angle).geometry.coordinates; 
+        // polygonCoords.push(vertex); 
     }
 
     // Close the polygon 
